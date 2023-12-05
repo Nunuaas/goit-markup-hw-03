@@ -11,6 +11,10 @@
    --modal-background: #FCFCFC;
 }
 
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
 body{
    font-family: 'Roboto', sans-serif;
    color: var(--text-color);
@@ -123,16 +127,6 @@ body{
 
 /* second section */
 
-.rubric{
-   font-family: Roboto;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 500;
-   letter-spacing: 0.02em;
-   line-height: 1.2;
-   color: var(--dark-color);
-}
-
 .text{
    font-family: Roboto;
    font-size: 16px;
@@ -179,7 +173,7 @@ body{
    color: var(--dark-color);
 }
 
-/* names and services text */
+/* names in index.html, services text in portfolio and text in section 2 in index.html */
 
 .names{
    font-family: Roboto;

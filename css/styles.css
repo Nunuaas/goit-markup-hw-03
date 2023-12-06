@@ -111,6 +111,7 @@ body{
 
 .first-section{
    background-color: var(--dark-color);
+   height: 600px;
 }
 
 /* first section */

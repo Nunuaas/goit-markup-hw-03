@@ -41,7 +41,6 @@ body{
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--primary-brand-color);
-   text-decoration: none;
 
 }
 
@@ -59,6 +58,7 @@ body{
    display: inline-flex;
    align-items: flex-start;
    gap: 40px;
+   
 }
 
 
@@ -87,8 +87,16 @@ body{
    font-weight: 400;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   margin-left: auto;
 }
 
+.address-main{
+   display: flex;
+   gap: 40px;
+   padding: 24px 0;
+   margin: 0;
+
+}
 .address-list{
    color: var(--text-color);
 }
@@ -259,4 +267,13 @@ body{
    display: flex;
    justify-content: flex-start;
    align-items: center;
+}
+
+.nav{ 
+   display: flex;
+   align-items: center;
+}
+
+.section{
+   padding: 120px 0;
 }

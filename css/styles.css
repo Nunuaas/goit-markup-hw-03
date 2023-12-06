@@ -15,6 +15,16 @@
    box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body{
    font-family: 'Roboto', sans-serif;
    color: var(--text-color);
@@ -46,7 +56,10 @@ body{
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   list-style: none;}
+   display: inline-flex;
+   align-items: flex-start;
+   gap: 40px;
+}
 
 
 .header-list-nav{
@@ -228,4 +241,22 @@ body{
 .button-list:focus{
    color: var(--white-background);
    background-color: var(--pressed-state-color);
+}
+
+/* HW3 */
+.header{
+   border-bottom: 1px solid var(--accent-color);
+   background: var(--white-background);
+
+}
+.container{
+   max-width: 1158px; 
+   padding: 0 15px; 
+   margin: 0 auto; 
+}
+
+.header-flex{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
 }

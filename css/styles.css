@@ -352,6 +352,7 @@ body{
    gap: 8px;
    align-self: stretch;
    border: 1px solid var(--accent-color);
+   border-top: none; 
 }
 
 .portfolio-section{
